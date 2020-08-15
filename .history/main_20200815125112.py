@@ -8,21 +8,15 @@ class HtmlManager:
     def __init__(self):
         pass
         
-    def writehtml(self):
-        samplehtml = open('helloworld.html','w')
+    def htmlCreation(self):
+        htmlexample = open('helloworld.html','w')
         
         message = """<html><head></head>
         <body><p>Hello World!</p></body>
         </html>"""
         
-        samplehtml.write(message)
-        samplehtml.close()
-        
-        
-        
-            
-    
-
+        htmlexample.write(message)
+        htmlexample.close()
 
 class AWSManager:
     def __init__(self):
@@ -30,4 +24,5 @@ class AWSManager:
 
 
 s1 = HtmlManager()
-s1.writehtml()  
+s1.    def htmlCreation(self):
+()  
