@@ -24,5 +24,5 @@ class AWSManager:
 
 
 s1 = HtmlManager()
-s1.htmlCreation()
-
+s1.    def htmlCreation(self):
+()  
