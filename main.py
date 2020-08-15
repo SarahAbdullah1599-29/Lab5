@@ -17,12 +17,6 @@ class HtmlManager:
         
         samplehtml.write(message)
         samplehtml.close()
-        
-        
-        
-            
-    
-
 
 class AWSManager:
     def __init__(self):
