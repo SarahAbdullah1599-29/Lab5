@@ -5,5 +5,5 @@ manager=HtmlManager()
 manager.htmlCreation()
 manager.save()
 
-AwS=AWSManager()
+AWS=AWSManager()
 AWS.save_to_s3()

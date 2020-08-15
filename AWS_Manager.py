@@ -1,11 +1,11 @@
 import boto3
 class AWSManager:
     def __init__(self):
-        pass
+        s3_client = boto3.client('s3')
+
 
     def save_to_s3(self):
-        boto3.client('s3').upload_file('helloworld.html', 'lmtd-class','helloworld.html'
-        )
+        boto3.client('s3').upload_file('helloworld.html', 'lmtd-class','helloworld.html')
 
     def load_from_s3(self):
         boto3.client('s3').download_file('lmtd-class','helloworld.html','helloworld.html')
