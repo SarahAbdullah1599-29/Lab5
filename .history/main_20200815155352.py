@@ -1,9 +1,8 @@
-from AWS_Manager import AWSManager
 from Html_Manager import HtmlManager
 
 manager=HtmlManager()
 manager.htmlCreation()
 manager.save()
 
-AwS=AWSManager()
+AwS=AWS_Manager()
 AWS.save_to_s3()

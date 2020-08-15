@@ -1,4 +1,3 @@
-from AWS_Manager import AWSManager
 from Html_Manager import HtmlManager
 
 manager=HtmlManager()
